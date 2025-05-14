@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Levende Landingpage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f8f9fa;
+            color: #111;
+            line-height: 1.6;
+        }
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 100px 20px 60px;
+            text-align: center;
+            background: linear-gradient(135deg, #fefefe, #e2f1ff);
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #444;
+            max-width: 600px;
+        }
+        .cta-button {
+            padding: 15px 30px;
+            background: #0070f3;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .cta-button:hover {
+            background: #005ec2;
+        }
+        .animation-container {
+            width: 300px;
+            margin: 40px auto 0;
+        }
+
+        section.features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .feature {
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+            text-align: center;
+        }
+        .feature h3 {
+            margin-top: 15px;
+            font-size: 1.2rem;
+        }
+        footer {
+            text-align: center;
+            padding: 40px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Velkommen til Fremtiden</h1>
+    <p>Skab levende oplevelser med animation, 3D og interaktive elementer – direkte i browseren.</p>
+    <button class="cta-button">Kom i gang</button>
+
+    <div class="animation-container">
+        <!-- Her kan du integrere Lottie eller en SVG-animation -->
+        <iframe src="https://lottie.host/embed/0deea9b0-77b6-4c56-bb35-91b9aeec5d89/Lp7rCmnF0M.json" style="width:100%; height:300px; border:none;"></iframe>
+    </div>
+</header>
+
+<section class="features">
+    <div class="feature">
+        <img src="https://blush.design/api/download?shareUri=example" alt="Illustration" width="100" />
+        <h3>Intuitivt Design</h3>
+        <p>Drag-and-drop interface med klare flows.</p>
+    </div>
+    <div class="feature">
+        <img src="https://blush.design/api/download?shareUri=example" alt="Illustration" width="100" />
+        <h3>Animerede Elementer</h3>
+        <p>Fang opmærksomhed med microinteractions.</p>
+    </div>
+    <div class="feature">
+        <img src="https://blush.design/api/download?shareUri=example" alt="Illustration" width="100" />
+        <h3>3D-Integration</h3>
+        <p>Brug Spline til at gøre dine idéer tredimensionelle.</p>
+    </div>
+</section>
+
+<footer>
+    © 2025 Levende Design. Alle rettigheder forbeholdes.
+</footer>
+
+</body>
+</html>
